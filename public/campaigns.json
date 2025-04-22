@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1,
+      "title": "Blanket Drive for Kurigram",
+      "image": "https://old.bidyanondo.org/uploads/projects/12/Winter-Clothes-Distribution-small-1704364188.jpg",
+      "description": "Help us distribute blankets to the people in Kurigram where temperature drops drastically in winter.",
+      "status": "Ongoing",
+      "contactInfo": "017XXXXXXXX",
+      "division": "Rangpur"
+    },
+    {
+      "id": 2,
+      "title": "Sweater Donation in Sylhet Hills",
+      "image": "https://sparbd.org/wp-content/uploads/2023/11/Muffler-3.jpg",
+      "description": "Support children and elderly in Sylhet with warm sweaters during the chilly nights.",
+      "status": "Ongoing",
+      "contactInfo": "018XXXXXXXX",
+      "division": "Sylhet"
+    },
+    {
+      "id": 3,
+      "title": "Cozy Winter for Dhaka's Homeless",
+      "image": "https://kinsust.org/images/wings/winter.webp",
+      "description": "Join hands to bring warm clothes to the homeless people of Dhaka city.",
+      "status": "Completed",
+      "contactInfo": "015XXXXXXXX",
+      "division": "Dhaka"
+    },
+    {
+      "id": 4,
+      "title": "Winter Care for Bandarban Tribe",
+      "image": "https://sparbd.org/wp-content/uploads/2023/11/Muffler-2.jpg",
+      "description": "Donate sweaters and blankets for the tribal communities living in Bandarban.",
+      "status": "Ongoing",
+      "contactInfo": "016XXXXXXXX",
+      "division": "Chittagong"
+    },
+    {
+      "id": 5,
+      "title": "Jessore Blanket Mission",
+      "image": "https://sparbd.org/wp-content/uploads/2023/11/Sweater-03.jpg",
+      "description": "Blankets and jackets are needed for the elderly and children of Jessore.",
+      "status": "Upcoming",
+      "contactInfo": "017XXXXXXXX",
+      "division": "Khulna"
+    },
+    {
+      "id": 6,
+      "title": "Warm Hearts in Rajshahi",
+      "image": "https://www.islamic-relief.org.uk/wp-content/smush-webp/2024/11/winter-appeal-hero.jpg.webp",
+      "description": "Help us ensure no one in Rajshahi goes cold this winter season.",
+      "status": "Ongoing",
+      "contactInfo": "019XXXXXXXX",
+      "division": "Rajshahi"
+    }
+  ]
+  
