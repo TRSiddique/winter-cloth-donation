@@ -6,7 +6,7 @@ const Navbar = () => {
 const Links=<>
 <li><Link to='/'>Home</Link></li>
 <li><Link to='/campaigns'>Donation Campaigns</Link></li>
-<li><Link> How to Help</Link></li>
+<li><Link to='/help'> How to Help</Link></li>
 <li><Link> Dashboard</Link></li>
 </>
 

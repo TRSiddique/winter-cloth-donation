@@ -12,6 +12,7 @@ import Home from './components/Home/Home';
 import DonationCampaigns from './components/Campaign/DonationCampaigns';
 import Login from './components/Login/Login';
 import Registration from './components/Registration/Registration';
+import HowToHelp from './components/How-to-help/HowToHelp';
 
 // Routes
 const router = createBrowserRouter([
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path:'/registration',
         element:<Registration></Registration>
+      },
+      {
+        path:'/help',
+        element:<HowToHelp></HowToHelp>
       }
     ],
   },
