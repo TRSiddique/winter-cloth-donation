@@ -11,7 +11,7 @@ const DonationCampaigns = () => {
       .catch(error => console.error('Error loading data:', error));
   }, []);
 
-  console.log(campaigns); // Check if campaigns are being logged
+  //console.log(campaigns); // Check if campaigns are being logged
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-10">
@@ -41,7 +41,7 @@ const DonationCampaigns = () => {
                 to={`/campaign/${campaign.id}`}
                 className="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
               >
-                Donate Now
+                Donation Details
               </Link>
             </div>
           </div>

@@ -1,17 +1,22 @@
-import React from 'react';
+import {useContext} from 'react';
 import logo from './../../assets/logo.png'
 import {NavLink, Link} from 'react-router-dom'
+import { AuthContext } from '../../provider/AuthProvider';
+import icon from '/public/man.png'
+
 const Navbar = () => {
+const {user,logOut}=useContext(AuthContext);
+
 
 const Links=<>
 <li><Link to='/'>Home</Link></li>
 <li><Link to='/campaigns'>Donation Campaigns</Link></li>
 <li><Link to='/help'> How to Help</Link></li>
-<li><Link> Dashboard</Link></li>
+<li><Link to='/dashboard'> Dashboard</Link></li>
 </>
 
     return (
-        <div className="navbar bg-base-100 shadow-sm">
+        <div className="navbar bg-base-100 shadow-sm justify-between">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -32,9 +37,21 @@ const Links=<>
       {Links}
     </ul>
   </div>
-  <div className="navbar-end">
-    <Link to='login' className="btn">Login</Link>
+ <div className=' flex gap-3 items-center justify-end'>
+ <div>
+    {
+      user && user?.email ? <div className='flex flex-col items-center'><img className='w-8 h-8 rounded-full' src={user?.photoURL}alt="" /><p>{user.displayName}</p></div>: <img src={icon} alt="" />
+    }
+   
   </div>
+  <div className="navbar-end">
+    <p>{user && user.name}</p>
+    {
+      user && user?.email? <button onClick={logOut} className="btn">LogOut</button>:<Link to='login' className="btn">Login</Link>
+    }
+    
+  </div>
+ </div>
 </div>
     );
 };
