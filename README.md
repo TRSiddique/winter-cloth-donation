@@ -1,5 +1,6 @@
 # Winter Clothing Donation Website
-
+## Live link:
+https://cloth-donation-auth.web.app/
 ## Description
 The Winter Clothing Donation Website is a simple and easy-to-use platform designed to help people donate winter clothing to those in need across Bangladesh. The website connects donors with volunteers to provide warmth to vulnerable individuals, particularly in rural and low-income areas, during the cold winter months.
 
@@ -28,5 +29,5 @@ The Winter Clothing Donation Website is a simple and easy-to-use platform design
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/cloth-donation.git
+   git clone https://github.com/TRSiddique/winter-cloth-donation
    cd cloth-donation
