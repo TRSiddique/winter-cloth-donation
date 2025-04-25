@@ -2,7 +2,7 @@ import React from "react";
 
 const HowToHelp = () => {
   return (
-    <div className="py-16 bg-gray-100">
+    <div className="py-16 bg-gray-100 text-black">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-4xl font-bold text-center text-blue-800 mb-8">
           How You Can Help

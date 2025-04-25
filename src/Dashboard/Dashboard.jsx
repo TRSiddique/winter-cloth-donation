@@ -15,7 +15,7 @@ const Dashboard = () => {
   }
 
   return (
-    <div className="max-w-3xl mx-auto px-4 py-10">
+    <div className="max-w-3xl mx-auto px-4 py-10 bg-white text-black">
       <h2 className="text-4xl font-bold mb-6 text-center text-blue-700">
         Welcome, {user.displayName || "User"}!
       </h2>

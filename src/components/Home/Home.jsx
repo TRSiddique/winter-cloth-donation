@@ -7,7 +7,7 @@ import JoinVolunteer from './JoinVolunteer';
 
 const Home = () => {
     return (
-        <div>
+        <div className='bg-white text-black'>
           <Banner />
           <About />
           <HowItWorks />

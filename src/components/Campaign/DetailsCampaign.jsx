@@ -45,7 +45,7 @@ const DetailsCampaign = () => {
 
   return (
     
-    <div className="max-w-5xl mx-auto px-4 py-10">
+    <div className="max-w-5xl mx-auto px-4 py-10 bg-white text-black">
       <h1 className="text-4xl font-bold text-blue-800 mb-6">{campaign.title}</h1>
       <img
         src={campaign.image}
@@ -59,19 +59,19 @@ const DetailsCampaign = () => {
       <p className="text-lg text-gray-600 mb-4"><strong>Status:</strong> {campaign.status}</p>
 
       
-      <form onSubmit={handleSubmit} className="bg-gray-100 p-6 rounded-lg shadow-md mb-8">
+      <form onSubmit={handleSubmit} className="bg-gray-100 p-6 text-black rounded-lg shadow-md mb-8">
         <h2 className="text-2xl font-semibold mb-4">Donate Items</h2>
         <label className="block mb-2">Quantity</label>
-        <input type="text" name="quantity" className="input input-bordered w-full mb-4" placeholder="e.g., 2 jackets" required />
+        <input type="text" name="quantity" className="input bg-white input-bordered w-full mb-4" placeholder="e.g., 2 jackets" required />
         
         <label className="block mb-2">Item Type</label>
-        <input type="text" name="itemType" className="input input-bordered w-full mb-4" placeholder="e.g., Blanket, Jacket" required />
+        <input type="text" name="itemType" className="input bg-white input-bordered w-full mb-4" placeholder="e.g., Blanket, Jacket" required />
         
         <label className="block mb-2">Pickup Location</label>
-        <input type="text" name="location" className="input input-bordered w-full mb-4" placeholder="e.g., House 12, Road 5, Dhanmondi, Dhaka" required />
+        <input type="text" name="location" className="input bg-white input-bordered w-full mb-4" placeholder="e.g., House 12, Road 5, Dhanmondi, Dhaka" required />
         
         <label className="block mb-2">Additional Notes (Optional)</label>
-        <textarea name="notes" className="textarea textarea-bordered w-full mb-4" placeholder="Any extra info..." />
+        <textarea name="notes" className="textarea bg-white textarea-bordered w-full mb-4" placeholder="Any extra info..." />
 
         <button type="submit" className="btn btn-primary">Submit Donation</button>
       </form>
