@@ -15,7 +15,8 @@ const Dashboard = () => {
   }
 
   return (
-    <div className="max-w-3xl mx-auto px-4 py-10 bg-white text-black">
+    <div className='bg-white text-black'>
+      <div className="max-w-3xl mx-auto px-4 py-10 bg-white text-black">
       <h2 className="text-4xl font-bold mb-6 text-center text-blue-700">
         Welcome, {user.displayName || "User"}!
       </h2>
@@ -34,6 +35,7 @@ const Dashboard = () => {
           Update Profile
         </button>
       </div>
+    </div>
     </div>
   );
 };

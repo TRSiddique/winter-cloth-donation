@@ -65,7 +65,7 @@ const Login = () => {
   <input
     name='password'
     type={showPassword ? "text" : "password"}
-    className="input w-full pr-12" // padding right বাড়ানো হলো
+    className="input w-full pr-12" 
     placeholder="Password"
   />
   <span
